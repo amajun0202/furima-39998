@@ -11,7 +11,7 @@
 | last_name                 | string | NOT NULL               |
 | first_name_kana           | string | NOT NULL               |
 | last_name_kana            | string | NOT NULL               |
-| birthdate                 | string | NOT NULL               |
+| birthdate_id              | integer| NOT NULL               |
 
 ### Association
 
@@ -26,11 +26,11 @@
 | item_image                | text       | NOT NULL               |
 | item_name                 | string     | NOT NULL               |
 | description               | text       | NOT NULL               |
-| category                  | integer    | NOT NULL               |
-| condition                 | integer    | NOT NULL               |
-| shipping_cost             | integer    | NOT NULL               |
-| origin_region             | integer    | NOT NULL               |
-| shipping_days             | integer    | NOT NULL               |
+| category_id               | integer    | NOT NULL               |
+| condition_id              | integer    | NOT NULL               |
+| shipping_cost_id          | integer    | NOT NULL               |
+| origin_region_id          | integer    | NOT NULL               |
+| shipping_days_id          | integer    | NOT NULL               |
 | cost                      | integer    | NOT NULL               |
 | commission                | integer    | NOT NULL               |
 | profit                    | integer    | NOT NULL               |
@@ -47,7 +47,7 @@
 | Column                    | Type       | Options                |
 | ------------------------- | ---------- | ---------------------- |
 | postal_code               | integer    | NOT NULL, チェック制約  |
-| prefecture                | string     | NOT NULL               |
+| prefecture_id             | integer    | NOT NULL               |
 | city                      | string     | NOT NULL               |
 | street_number             | string     | NOT NULL               |
 | building_name             | string     |                        |
