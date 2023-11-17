@@ -15,12 +15,11 @@ function post() {
     profit.innerText = profitValue;
   }
 
- 
+
   priceInput.addEventListener("input", updateDisplay);
 
  
   updateDisplay();
 }
-
 
 window.addEventListener("turbo:load", post);

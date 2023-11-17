@@ -87,5 +87,6 @@ gem 'active_hash'
 gem 'activestorage-validator'
 gem 'payjp'
 gem 'gon'
+gem 'turbo-rails'
 
 
