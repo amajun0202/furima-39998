@@ -88,5 +88,5 @@ gem 'activestorage-validator'
 gem 'payjp'
 gem 'gon'
 gem 'turbo-rails'
-
+gem "aws-sdk-s3", require: false
 
